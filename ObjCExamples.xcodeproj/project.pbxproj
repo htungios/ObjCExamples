@@ -11,6 +11,23 @@
 		A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A66379C41BD8D16F009E1BDC /* CvsObjCFunction.m */; };
 		A66379C81BD8D37C009E1BDC /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = A66379C61BD8D37C009E1BDC /* util.c */; };
 		A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A66379CA1BD8D83C009E1BDC /* UntilObject.m */; };
+		A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */; };
+		A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA31BEA124A00E1C399 /* campfire01.png */; };
+		A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA41BEA124A00E1C399 /* campfire02.png */; };
+		A68C7AB51BEA124A00E1C399 /* campfire03.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA51BEA124A00E1C399 /* campfire03.png */; };
+		A68C7AB61BEA124A00E1C399 /* campfire04.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA61BEA124A00E1C399 /* campfire04.png */; };
+		A68C7AB71BEA124A00E1C399 /* campfire05.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA71BEA124A00E1C399 /* campfire05.png */; };
+		A68C7AB81BEA124A00E1C399 /* campfire06.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA81BEA124A00E1C399 /* campfire06.png */; };
+		A68C7AB91BEA124A00E1C399 /* campfire07.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA91BEA124A00E1C399 /* campfire07.png */; };
+		A68C7ABA1BEA124A00E1C399 /* campfire08.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AAA1BEA124A00E1C399 /* campfire08.png */; };
+		A68C7ABB1BEA124A00E1C399 /* campfire09.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AAB1BEA124A00E1C399 /* campfire09.png */; };
+		A68C7ABC1BEA124A00E1C399 /* campfire10.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AAC1BEA124A00E1C399 /* campfire10.png */; };
+		A68C7ABD1BEA124A00E1C399 /* campfire11.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AAD1BEA124A00E1C399 /* campfire11.png */; };
+		A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AAE1BEA124A00E1C399 /* campfire12.png */; };
+		A68C7ABF1BEA124A00E1C399 /* campfire13.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AAF1BEA124A00E1C399 /* campfire13.png */; };
+		A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AB01BEA124A00E1C399 /* campfire14.png */; };
+		A68C7AC11BEA124A00E1C399 /* campfire15.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AB11BEA124A00E1C399 /* campfire15.png */; };
+		A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AB21BEA124A00E1C399 /* campfire16.png */; };
 		A6A3CAB61BE86FCA007C5BD6 /* SwiftToObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A3CAB41BE86FCA007C5BD6 /* SwiftToObjC.m */; };
 		A6A3CAB91BE87024007C5BD6 /* SwiftToObjC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3CAB81BE87024007C5BD6 /* SwiftToObjC.xib */; };
 		A6B264F01BD49FBB00FC4D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B264EF1BD49FBB00FC4D08 /* main.m */; };
@@ -34,6 +51,24 @@
 		A66379C71BD8D37C009E1BDC /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		A66379C91BD8D83C009E1BDC /* UntilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UntilObject.h; sourceTree = "<group>"; };
 		A66379CA1BD8D83C009E1BDC /* UntilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UntilObject.m; sourceTree = "<group>"; };
+		A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUIImageView.h; sourceTree = "<group>"; };
+		A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUIImageView.m; sourceTree = "<group>"; };
+		A68C7AA31BEA124A00E1C399 /* campfire01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire01.png; sourceTree = "<group>"; };
+		A68C7AA41BEA124A00E1C399 /* campfire02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire02.png; sourceTree = "<group>"; };
+		A68C7AA51BEA124A00E1C399 /* campfire03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire03.png; sourceTree = "<group>"; };
+		A68C7AA61BEA124A00E1C399 /* campfire04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire04.png; sourceTree = "<group>"; };
+		A68C7AA71BEA124A00E1C399 /* campfire05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire05.png; sourceTree = "<group>"; };
+		A68C7AA81BEA124A00E1C399 /* campfire06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire06.png; sourceTree = "<group>"; };
+		A68C7AA91BEA124A00E1C399 /* campfire07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire07.png; sourceTree = "<group>"; };
+		A68C7AAA1BEA124A00E1C399 /* campfire08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire08.png; sourceTree = "<group>"; };
+		A68C7AAB1BEA124A00E1C399 /* campfire09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire09.png; sourceTree = "<group>"; };
+		A68C7AAC1BEA124A00E1C399 /* campfire10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire10.png; sourceTree = "<group>"; };
+		A68C7AAD1BEA124A00E1C399 /* campfire11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire11.png; sourceTree = "<group>"; };
+		A68C7AAE1BEA124A00E1C399 /* campfire12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire12.png; sourceTree = "<group>"; };
+		A68C7AAF1BEA124A00E1C399 /* campfire13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire13.png; sourceTree = "<group>"; };
+		A68C7AB01BEA124A00E1C399 /* campfire14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire14.png; sourceTree = "<group>"; };
+		A68C7AB11BEA124A00E1C399 /* campfire15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire15.png; sourceTree = "<group>"; };
+		A68C7AB21BEA124A00E1C399 /* campfire16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire16.png; sourceTree = "<group>"; };
 		A6A3CAB31BE86FCA007C5BD6 /* SwiftToObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftToObjC.h; sourceTree = "<group>"; };
 		A6A3CAB41BE86FCA007C5BD6 /* SwiftToObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftToObjC.m; sourceTree = "<group>"; };
 		A6A3CAB81BE87024007C5BD6 /* SwiftToObjC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftToObjC.xib; sourceTree = "<group>"; };
@@ -68,6 +103,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A68C7AA21BEA121C00E1C399 /* BonFire */ = {
+			isa = PBXGroup;
+			children = (
+				A68C7AA31BEA124A00E1C399 /* campfire01.png */,
+				A68C7AA41BEA124A00E1C399 /* campfire02.png */,
+				A68C7AA51BEA124A00E1C399 /* campfire03.png */,
+				A68C7AA61BEA124A00E1C399 /* campfire04.png */,
+				A68C7AA71BEA124A00E1C399 /* campfire05.png */,
+				A68C7AA81BEA124A00E1C399 /* campfire06.png */,
+				A68C7AA91BEA124A00E1C399 /* campfire07.png */,
+				A68C7AAA1BEA124A00E1C399 /* campfire08.png */,
+				A68C7AAB1BEA124A00E1C399 /* campfire09.png */,
+				A68C7AAC1BEA124A00E1C399 /* campfire10.png */,
+				A68C7AAD1BEA124A00E1C399 /* campfire11.png */,
+				A68C7AAE1BEA124A00E1C399 /* campfire12.png */,
+				A68C7AAF1BEA124A00E1C399 /* campfire13.png */,
+				A68C7AB01BEA124A00E1C399 /* campfire14.png */,
+				A68C7AB11BEA124A00E1C399 /* campfire15.png */,
+				A68C7AB21BEA124A00E1C399 /* campfire16.png */,
+			);
+			name = BonFire;
+			sourceTree = "<group>";
+		};
 		A6A3CAA61BE86C5F007C5BD6 /* SwiftToObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +157,7 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A68C7AA21BEA121C00E1C399 /* BonFire */,
 				A6A3CAA61BE86C5F007C5BD6 /* SwiftToObjC */,
 				A6B265131BD4A0E000FC4D08 /* Core */,
 				A6B264FA1BD49FBB00FC4D08 /* Images.xcassets */,
@@ -147,6 +206,8 @@
 				A66379C71BD8D37C009E1BDC /* util.h */,
 				A66379C91BD8D83C009E1BDC /* UntilObject.h */,
 				A66379CA1BD8D83C009E1BDC /* UntilObject.m */,
+				A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */,
+				A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -208,10 +269,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68C7ABA1BEA124A00E1C399 /* campfire08.png in Resources */,
+				A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */,
 				A6B264FE1BD49FBB00FC4D08 /* LaunchScreen.xib in Resources */,
+				A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */,
 				A6CA88E41BD89763009B36D6 /* DemoSelector.xib in Resources */,
+				A68C7ABF1BEA124A00E1C399 /* campfire13.png in Resources */,
+				A68C7AC11BEA124A00E1C399 /* campfire15.png in Resources */,
+				A68C7AB71BEA124A00E1C399 /* campfire05.png in Resources */,
 				A6B264FB1BD49FBB00FC4D08 /* Images.xcassets in Resources */,
+				A68C7AB61BEA124A00E1C399 /* campfire04.png in Resources */,
+				A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */,
+				A68C7ABD1BEA124A00E1C399 /* campfire11.png in Resources */,
+				A68C7AB91BEA124A00E1C399 /* campfire07.png in Resources */,
+				A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */,
+				A68C7AB51BEA124A00E1C399 /* campfire03.png in Resources */,
+				A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */,
+				A68C7AB81BEA124A00E1C399 /* campfire06.png in Resources */,
+				A68C7ABC1BEA124A00E1C399 /* campfire10.png in Resources */,
 				A6A3CAB91BE87024007C5BD6 /* SwiftToObjC.xib in Resources */,
+				A68C7ABB1BEA124A00E1C399 /* campfire09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +303,7 @@
 				A6B2651F1BD4A17D00FC4D08 /* MainScreen.m in Sources */,
 				A6B2651E1BD4A17D00FC4D08 /* ConsoleScreen.m in Sources */,
 				A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */,
+				A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */,
 				A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */,
 				A6B2651C1BD4A17D00FC4D08 /* AppDelegate.m in Sources */,
 				A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */,

@@ -18,7 +18,8 @@
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Function", CLASS: @"DemoFunction"},
                                     @{TITLE: @"Selector", CLASS: @"DemoSelector"},
-                                    @{TITLE: @"C function And ObjC function", CLASS: @"CvsObjCFunction"}
+                                    @{TITLE: @"C function And ObjC function", CLASS: @"CvsObjCFunction"},
+                                    @{TITLE: @"CampFire", CLASS: @"DemoUIImageView"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Array", CLASS: @"InterB"},
