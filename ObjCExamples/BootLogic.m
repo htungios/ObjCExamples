@@ -17,7 +17,8 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Function", CLASS: @"DemoFunction"},
-                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"}
+                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"},
+                                    @{TITLE: @"C function And ObjC function", CLASS: @"CvsObjCFunction"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Array", CLASS: @"InterB"},
@@ -25,8 +26,12 @@
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
                              ]};
+    NSDictionary* fromSwiftToObjC = @{SECTION: @"Changle", MENU: @[
+                                       @{TITLE: @"SwiftToObjC", CLASS: @"SwiftToObjC"},
+                                       @{TITLE: @"ChessView", CLASS: @"ChessView"}
+                            ]};
     
-    mainScreen.menu = @[basic, intermediate, advanced];
+    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC];
     mainScreen.title = @"Objective -C by Examples";
     mainScreen.about = @"Hoang Ngoc Tung - DH Mo Dia Chat";
     //--------- End of customization -----------
