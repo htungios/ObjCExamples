@@ -19,7 +19,7 @@
                                     @{TITLE: @"Function", CLASS: @"DemoFunction"},
                                     @{TITLE: @"Selector", CLASS: @"DemoSelector"},
                                     @{TITLE: @"C function And ObjC function", CLASS: @"CvsObjCFunction"},
-                                    @{TITLE: @"CampFire", CLASS: @"DemoUIImageView"}
+                                    
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Array", CLASS: @"InterB"},
@@ -31,8 +31,13 @@
                                        @{TITLE: @"SwiftToObjC", CLASS: @"SwiftToObjC"},
                                        @{TITLE: @"ChessView", CLASS: @"ChessView"}
                             ]};
+    NSDictionary* basicUiview = @{SECTION: @"UIView", MENU: @[
+                                @{TITLE: @"CampFire", CLASS: @"DemoUIImageView"},
+                                @{TITLE: @"NestedSquares", CLASS: @"nestedSquares"}
+                            ]};
+
     
-    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC];
+    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC, basicUiview];
     mainScreen.title = @"Objective -C by Examples";
     mainScreen.about = @"Hoang Ngoc Tung - DH Mo Dia Chat";
     //--------- End of customization -----------

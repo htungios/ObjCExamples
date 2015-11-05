@@ -40,6 +40,7 @@
 		A6CA88DA1BD87E6C009B36D6 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CA88D91BD87E6C009B36D6 /* DemoFunction.m */; };
 		A6CA88E31BD89763009B36D6 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CA88E11BD89763009B36D6 /* DemoSelector.m */; };
 		A6CA88E41BD89763009B36D6 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6CA88E21BD89763009B36D6 /* DemoSelector.xib */; };
+		A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,8 @@
 		A6CA88E01BD89763009B36D6 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		A6CA88E11BD89763009B36D6 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		A6CA88E21BD89763009B36D6 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		A6F1FA4A1BEB3C8800ECE69A /* nestedSquares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nestedSquares.h; sourceTree = "<group>"; };
+		A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nestedSquares.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,13 +160,13 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A6F1FA491BEB3A9000ECE69A /* UIView */,
 				A68C7AA21BEA121C00E1C399 /* BonFire */,
 				A6A3CAA61BE86C5F007C5BD6 /* SwiftToObjC */,
 				A6B265131BD4A0E000FC4D08 /* Core */,
 				A6B264FA1BD49FBB00FC4D08 /* Images.xcassets */,
 				A6B264FC1BD49FBB00FC4D08 /* LaunchScreen.xib */,
 				A6CA88D71BD87DEC009B36D6 /* Basic */,
-				A6B264ED1BD49FBB00FC4D08 /* Supporting Files */,
 			);
 			path = ObjCExamples;
 			sourceTree = "<group>";
@@ -206,10 +209,20 @@
 				A66379C71BD8D37C009E1BDC /* util.h */,
 				A66379C91BD8D83C009E1BDC /* UntilObject.h */,
 				A66379CA1BD8D83C009E1BDC /* UntilObject.m */,
-				A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */,
-				A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */,
+				A6B264ED1BD49FBB00FC4D08 /* Supporting Files */,
 			);
 			name = Basic;
+			sourceTree = "<group>";
+		};
+		A6F1FA491BEB3A9000ECE69A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */,
+				A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */,
+				A6F1FA4A1BEB3C8800ECE69A /* nestedSquares.h */,
+				A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */,
+			);
+			name = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +315,7 @@
 				A6B2651D1BD4A17D00FC4D08 /* BootLogic.m in Sources */,
 				A6B2651F1BD4A17D00FC4D08 /* MainScreen.m in Sources */,
 				A6B2651E1BD4A17D00FC4D08 /* ConsoleScreen.m in Sources */,
+				A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */,
 				A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */,
 				A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */,
 				A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */,
