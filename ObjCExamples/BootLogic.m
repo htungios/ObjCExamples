@@ -33,7 +33,8 @@
                             ]};
     NSDictionary* basicUiview = @{SECTION: @"UIView", MENU: @[
                                 @{TITLE: @"CampFire", CLASS: @"DemoUIImageView"},
-                                @{TITLE: @"NestedSquares", CLASS: @"nestedSquares"}
+                                @{TITLE: @"NestedSquares", CLASS: @"nestedSquares"},
+                                @{TITLE: @"FlyUpAndDown", CLASS: @"flyUpAndDown"}
                             ]};
 
     

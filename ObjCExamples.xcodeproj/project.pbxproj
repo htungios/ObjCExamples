@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6171A601BE8A9530044F5A9 /* ChessView.m */; };
+		A661B2A21BEC5B2900D38C2A /* flyUpAndDown.m in Sources */ = {isa = PBXBuildFile; fileRef = A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */; };
+		A661B2AD1BEC6AF100D38C2A /* bird0.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2A61BEC6AF100D38C2A /* bird0.png */; };
+		A661B2AE1BEC6AF100D38C2A /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2A71BEC6AF100D38C2A /* bird1.png */; };
+		A661B2AF1BEC6AF100D38C2A /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2A81BEC6AF100D38C2A /* bird2.png */; };
+		A661B2B01BEC6AF100D38C2A /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2A91BEC6AF100D38C2A /* bird3.png */; };
+		A661B2B11BEC6AF100D38C2A /* bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2AA1BEC6AF100D38C2A /* bird4.png */; };
+		A661B2B21BEC6AF100D38C2A /* bird5.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2AB1BEC6AF100D38C2A /* bird5.png */; };
+		A661B2B31BEC6AF100D38C2A /* jungle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A661B2AC1BEC6AF100D38C2A /* jungle.jpg */; };
 		A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A66379C41BD8D16F009E1BDC /* CvsObjCFunction.m */; };
 		A66379C81BD8D37C009E1BDC /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = A66379C61BD8D37C009E1BDC /* util.c */; };
 		A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A66379CA1BD8D83C009E1BDC /* UntilObject.m */; };
@@ -46,6 +54,15 @@
 /* Begin PBXFileReference section */
 		A6171A5F1BE8A9530044F5A9 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
 		A6171A601BE8A9530044F5A9 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		A661B2A01BEC5B2900D38C2A /* flyUpAndDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyUpAndDown.h; sourceTree = "<group>"; };
+		A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flyUpAndDown.m; sourceTree = "<group>"; };
+		A661B2A61BEC6AF100D38C2A /* bird0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird0.png; sourceTree = "<group>"; };
+		A661B2A71BEC6AF100D38C2A /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		A661B2A81BEC6AF100D38C2A /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		A661B2A91BEC6AF100D38C2A /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		A661B2AA1BEC6AF100D38C2A /* bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird4.png; sourceTree = "<group>"; };
+		A661B2AB1BEC6AF100D38C2A /* bird5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird5.png; sourceTree = "<group>"; };
+		A661B2AC1BEC6AF100D38C2A /* jungle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungle.jpg; sourceTree = "<group>"; };
 		A66379C31BD8D16F009E1BDC /* CvsObjCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvsObjCFunction.h; sourceTree = "<group>"; };
 		A66379C41BD8D16F009E1BDC /* CvsObjCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CvsObjCFunction.m; sourceTree = "<group>"; };
 		A66379C61BD8D37C009E1BDC /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
@@ -106,6 +123,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A661B2A31BEC6AAF00D38C2A /* BirdFly */ = {
+			isa = PBXGroup;
+			children = (
+				A661B2A61BEC6AF100D38C2A /* bird0.png */,
+				A661B2A71BEC6AF100D38C2A /* bird1.png */,
+				A661B2A81BEC6AF100D38C2A /* bird2.png */,
+				A661B2A91BEC6AF100D38C2A /* bird3.png */,
+				A661B2AA1BEC6AF100D38C2A /* bird4.png */,
+				A661B2AB1BEC6AF100D38C2A /* bird5.png */,
+				A661B2AC1BEC6AF100D38C2A /* jungle.jpg */,
+			);
+			name = BirdFly;
+			sourceTree = "<group>";
+		};
 		A68C7AA21BEA121C00E1C399 /* BonFire */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +191,7 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A661B2A31BEC6AAF00D38C2A /* BirdFly */,
 				A6F1FA491BEB3A9000ECE69A /* UIView */,
 				A68C7AA21BEA121C00E1C399 /* BonFire */,
 				A6A3CAA61BE86C5F007C5BD6 /* SwiftToObjC */,
@@ -221,6 +253,8 @@
 				A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */,
 				A6F1FA4A1BEB3C8800ECE69A /* nestedSquares.h */,
 				A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */,
+				A661B2A01BEC5B2900D38C2A /* flyUpAndDown.h */,
+				A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -282,12 +316,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A661B2AF1BEC6AF100D38C2A /* bird2.png in Resources */,
 				A68C7ABA1BEA124A00E1C399 /* campfire08.png in Resources */,
 				A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */,
 				A6B264FE1BD49FBB00FC4D08 /* LaunchScreen.xib in Resources */,
 				A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */,
 				A6CA88E41BD89763009B36D6 /* DemoSelector.xib in Resources */,
 				A68C7ABF1BEA124A00E1C399 /* campfire13.png in Resources */,
+				A661B2AE1BEC6AF100D38C2A /* bird1.png in Resources */,
+				A661B2B01BEC6AF100D38C2A /* bird3.png in Resources */,
+				A661B2B31BEC6AF100D38C2A /* jungle.jpg in Resources */,
+				A661B2B11BEC6AF100D38C2A /* bird4.png in Resources */,
 				A68C7AC11BEA124A00E1C399 /* campfire15.png in Resources */,
 				A68C7AB71BEA124A00E1C399 /* campfire05.png in Resources */,
 				A6B264FB1BD49FBB00FC4D08 /* Images.xcassets in Resources */,
@@ -296,7 +335,9 @@
 				A68C7ABD1BEA124A00E1C399 /* campfire11.png in Resources */,
 				A68C7AB91BEA124A00E1C399 /* campfire07.png in Resources */,
 				A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */,
+				A661B2AD1BEC6AF100D38C2A /* bird0.png in Resources */,
 				A68C7AB51BEA124A00E1C399 /* campfire03.png in Resources */,
+				A661B2B21BEC6AF100D38C2A /* bird5.png in Resources */,
 				A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */,
 				A68C7AB81BEA124A00E1C399 /* campfire06.png in Resources */,
 				A68C7ABC1BEA124A00E1C399 /* campfire10.png in Resources */,
@@ -321,6 +362,7 @@
 				A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */,
 				A6B2651C1BD4A17D00FC4D08 /* AppDelegate.m in Sources */,
 				A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */,
+				A661B2A21BEC5B2900D38C2A /* flyUpAndDown.m in Sources */,
 				A6A3CAB61BE86FCA007C5BD6 /* SwiftToObjC.m in Sources */,
 				A6CA88DA1BD87E6C009B36D6 /* DemoFunction.m in Sources */,
 				A6CA88E31BD89763009B36D6 /* DemoSelector.m in Sources */,
