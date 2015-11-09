@@ -24,7 +24,6 @@
 		A673EC451BF04A66008C6676 /* ocean2.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC431BF04A66008C6676 /* ocean2.png */; };
 		A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC4A1BF04E0A008C6676 /* ship1.png */; };
 		A673EC4D1BF056BD008C6676 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A673EC4C1BF056BD008C6676 /* AVFoundation.framework */; };
-		A673EC4F1BF05976008C6676 /* Kiss The Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A673EC4E1BF05976008C6676 /* Kiss The Rain.mp3 */; };
 		A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */; };
 		A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA31BEA124A00E1C399 /* campfire01.png */; };
 		A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA41BEA124A00E1C399 /* campfire02.png */; };
@@ -59,6 +58,7 @@
 		A6DA997F1BF08BB20006B5A5 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997B1BF08BB20006B5A5 /* green.png */; };
 		A6DA99801BF08BB20006B5A5 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997C1BF08BB20006B5A5 /* red.png */; };
 		A6DA99811BF08BB20006B5A5 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997D1BF08BB20006B5A5 /* violet.png */; };
+		A6DA99831BF0A2F10006B5A5 /* Kiss The Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DA99821BF0A2F10006B5A5 /* Kiss The Rain.mp3 */; };
 		A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */; };
 /* End PBXBuildFile section */
 
@@ -86,7 +86,6 @@
 		A673EC431BF04A66008C6676 /* ocean2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean2.png; sourceTree = "<group>"; };
 		A673EC4A1BF04E0A008C6676 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
 		A673EC4C1BF056BD008C6676 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		A673EC4E1BF05976008C6676 /* Kiss The Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kiss The Rain.mp3"; path = "../../../../Downloads/Kiss The Rain.mp3"; sourceTree = "<group>"; };
 		A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUIImageView.h; sourceTree = "<group>"; };
 		A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUIImageView.m; sourceTree = "<group>"; };
 		A68C7AA31BEA124A00E1C399 /* campfire01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire01.png; sourceTree = "<group>"; };
@@ -132,6 +131,7 @@
 		A6DA997B1BF08BB20006B5A5 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../../data/Stars/green.png; sourceTree = "<group>"; };
 		A6DA997C1BF08BB20006B5A5 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../data/Stars/red.png; sourceTree = "<group>"; };
 		A6DA997D1BF08BB20006B5A5 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = ../../data/Stars/violet.png; sourceTree = "<group>"; };
+		A6DA99821BF0A2F10006B5A5 /* Kiss The Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kiss The Rain.mp3"; sourceTree = "<group>"; };
 		A6F1FA4A1BEB3C8800ECE69A /* nestedSquares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nestedSquares.h; sourceTree = "<group>"; };
 		A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nestedSquares.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,7 +165,7 @@
 		A673EC391BF046C0008C6676 /* shipAndSee */ = {
 			isa = PBXGroup;
 			children = (
-				A673EC4E1BF05976008C6676 /* Kiss The Rain.mp3 */,
+				A6DA99821BF0A2F10006B5A5 /* Kiss The Rain.mp3 */,
 				A673EC4A1BF04E0A008C6676 /* ship1.png */,
 				A673EC421BF04A66008C6676 /* ocean1.png */,
 				A673EC431BF04A66008C6676 /* ocean2.png */,
@@ -376,8 +376,8 @@
 				A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */,
 				A6DA997E1BF08BB20006B5A5 /* brown.png in Resources */,
 				A6B264FE1BD49FBB00FC4D08 /* LaunchScreen.xib in Resources */,
-				A673EC4F1BF05976008C6676 /* Kiss The Rain.mp3 in Resources */,
 				A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */,
+				A6DA99831BF0A2F10006B5A5 /* Kiss The Rain.mp3 in Resources */,
 				A6CA88E41BD89763009B36D6 /* DemoSelector.xib in Resources */,
 				A68C7ABF1BEA124A00E1C399 /* campfire13.png in Resources */,
 				A661B2AE1BEC6AF100D38C2A /* bird1.png in Resources */,
