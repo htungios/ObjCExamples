@@ -54,6 +54,11 @@
 		A6CA88DA1BD87E6C009B36D6 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CA88D91BD87E6C009B36D6 /* DemoFunction.m */; };
 		A6CA88E31BD89763009B36D6 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CA88E11BD89763009B36D6 /* DemoSelector.m */; };
 		A6CA88E41BD89763009B36D6 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6CA88E21BD89763009B36D6 /* DemoSelector.xib */; };
+		A6DA99781BF089300006B5A5 /* Stars.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA99771BF089300006B5A5 /* Stars.m */; };
+		A6DA997E1BF08BB20006B5A5 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997A1BF08BB20006B5A5 /* brown.png */; };
+		A6DA997F1BF08BB20006B5A5 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997B1BF08BB20006B5A5 /* green.png */; };
+		A6DA99801BF08BB20006B5A5 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997C1BF08BB20006B5A5 /* red.png */; };
+		A6DA99811BF08BB20006B5A5 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997D1BF08BB20006B5A5 /* violet.png */; };
 		A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +126,12 @@
 		A6CA88E01BD89763009B36D6 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		A6CA88E11BD89763009B36D6 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		A6CA88E21BD89763009B36D6 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		A6DA99761BF089300006B5A5 /* Stars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stars.h; sourceTree = "<group>"; };
+		A6DA99771BF089300006B5A5 /* Stars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stars.m; sourceTree = "<group>"; };
+		A6DA997A1BF08BB20006B5A5 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown.png; path = ../../data/Stars/brown.png; sourceTree = "<group>"; };
+		A6DA997B1BF08BB20006B5A5 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../../data/Stars/green.png; sourceTree = "<group>"; };
+		A6DA997C1BF08BB20006B5A5 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../data/Stars/red.png; sourceTree = "<group>"; };
+		A6DA997D1BF08BB20006B5A5 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = ../../data/Stars/violet.png; sourceTree = "<group>"; };
 		A6F1FA4A1BEB3C8800ECE69A /* nestedSquares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nestedSquares.h; sourceTree = "<group>"; };
 		A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nestedSquares.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +228,7 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A6DA99791BF08B7F0006B5A5 /* Stars */,
 				A673EC391BF046C0008C6676 /* shipAndSee */,
 				A661B2A31BEC6AAF00D38C2A /* BirdFly */,
 				A6F1FA491BEB3A9000ECE69A /* UIView */,
@@ -273,6 +285,17 @@
 			name = Basic;
 			sourceTree = "<group>";
 		};
+		A6DA99791BF08B7F0006B5A5 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA997A1BF08BB20006B5A5 /* brown.png */,
+				A6DA997B1BF08BB20006B5A5 /* green.png */,
+				A6DA997C1BF08BB20006B5A5 /* red.png */,
+				A6DA997D1BF08BB20006B5A5 /* violet.png */,
+			);
+			name = Stars;
+			sourceTree = "<group>";
+		};
 		A6F1FA491BEB3A9000ECE69A /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +307,8 @@
 				A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */,
 				A673EC361BF04432008C6676 /* SeeAndShip.h */,
 				A673EC371BF04432008C6676 /* SeeAndShip.m */,
+				A6DA99761BF089300006B5A5 /* Stars.h */,
+				A6DA99771BF089300006B5A5 /* Stars.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -349,6 +374,7 @@
 				A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */,
 				A68C7ABA1BEA124A00E1C399 /* campfire08.png in Resources */,
 				A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */,
+				A6DA997E1BF08BB20006B5A5 /* brown.png in Resources */,
 				A6B264FE1BD49FBB00FC4D08 /* LaunchScreen.xib in Resources */,
 				A673EC4F1BF05976008C6676 /* Kiss The Rain.mp3 in Resources */,
 				A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */,
@@ -356,6 +382,7 @@
 				A68C7ABF1BEA124A00E1C399 /* campfire13.png in Resources */,
 				A661B2AE1BEC6AF100D38C2A /* bird1.png in Resources */,
 				A661B2B01BEC6AF100D38C2A /* bird3.png in Resources */,
+				A6DA997F1BF08BB20006B5A5 /* green.png in Resources */,
 				A661B2B31BEC6AF100D38C2A /* jungle.jpg in Resources */,
 				A661B2B11BEC6AF100D38C2A /* bird4.png in Resources */,
 				A68C7AC11BEA124A00E1C399 /* campfire15.png in Resources */,
@@ -364,6 +391,7 @@
 				A6B264FB1BD49FBB00FC4D08 /* Images.xcassets in Resources */,
 				A68C7AB61BEA124A00E1C399 /* campfire04.png in Resources */,
 				A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */,
+				A6DA99801BF08BB20006B5A5 /* red.png in Resources */,
 				A68C7ABD1BEA124A00E1C399 /* campfire11.png in Resources */,
 				A68C7AB91BEA124A00E1C399 /* campfire07.png in Resources */,
 				A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */,
@@ -374,6 +402,7 @@
 				A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */,
 				A68C7AB81BEA124A00E1C399 /* campfire06.png in Resources */,
 				A68C7ABC1BEA124A00E1C399 /* campfire10.png in Resources */,
+				A6DA99811BF08BB20006B5A5 /* violet.png in Resources */,
 				A6A3CAB91BE87024007C5BD6 /* SwiftToObjC.xib in Resources */,
 				A68C7ABB1BEA124A00E1C399 /* campfire09.png in Resources */,
 			);
@@ -396,6 +425,7 @@
 				A6B2651C1BD4A17D00FC4D08 /* AppDelegate.m in Sources */,
 				A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */,
 				A661B2A21BEC5B2900D38C2A /* flyUpAndDown.m in Sources */,
+				A6DA99781BF089300006B5A5 /* Stars.m in Sources */,
 				A6A3CAB61BE86FCA007C5BD6 /* SwiftToObjC.m in Sources */,
 				A673EC381BF04432008C6676 /* SeeAndShip.m in Sources */,
 				A6CA88DA1BD87E6C009B36D6 /* DemoFunction.m in Sources */,

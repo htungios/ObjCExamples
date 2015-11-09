@@ -35,7 +35,8 @@
                                 @{TITLE: @"CampFire", CLASS: @"DemoUIImageView"},
                                 @{TITLE: @"NestedSquares", CLASS: @"nestedSquares"},
                                 @{TITLE: @"FlyUpAndDown", CLASS: @"flyUpAndDown"},
-                                @{TITLE: @"Thuyền và Biển", CLASS: @"SeeAndShip"}
+                                @{TITLE: @"Thuyền và Biển", CLASS: @"SeeAndShip"},
+                                @{TITLE: @"Stars", CLASS: @"Stars"}
                             ]};
 
     
