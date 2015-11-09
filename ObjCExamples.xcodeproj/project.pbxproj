@@ -19,6 +19,12 @@
 		A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A66379C41BD8D16F009E1BDC /* CvsObjCFunction.m */; };
 		A66379C81BD8D37C009E1BDC /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = A66379C61BD8D37C009E1BDC /* util.c */; };
 		A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A66379CA1BD8D83C009E1BDC /* UntilObject.m */; };
+		A673EC381BF04432008C6676 /* SeeAndShip.m in Sources */ = {isa = PBXBuildFile; fileRef = A673EC371BF04432008C6676 /* SeeAndShip.m */; };
+		A673EC441BF04A66008C6676 /* ocean1.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC421BF04A66008C6676 /* ocean1.png */; };
+		A673EC451BF04A66008C6676 /* ocean2.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC431BF04A66008C6676 /* ocean2.png */; };
+		A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC4A1BF04E0A008C6676 /* ship1.png */; };
+		A673EC4D1BF056BD008C6676 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A673EC4C1BF056BD008C6676 /* AVFoundation.framework */; };
+		A673EC4F1BF05976008C6676 /* Kiss The Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A673EC4E1BF05976008C6676 /* Kiss The Rain.mp3 */; };
 		A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */; };
 		A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA31BEA124A00E1C399 /* campfire01.png */; };
 		A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA41BEA124A00E1C399 /* campfire02.png */; };
@@ -69,6 +75,13 @@
 		A66379C71BD8D37C009E1BDC /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		A66379C91BD8D83C009E1BDC /* UntilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UntilObject.h; sourceTree = "<group>"; };
 		A66379CA1BD8D83C009E1BDC /* UntilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UntilObject.m; sourceTree = "<group>"; };
+		A673EC361BF04432008C6676 /* SeeAndShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeeAndShip.h; sourceTree = "<group>"; };
+		A673EC371BF04432008C6676 /* SeeAndShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeeAndShip.m; sourceTree = "<group>"; };
+		A673EC421BF04A66008C6676 /* ocean1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean1.png; sourceTree = "<group>"; };
+		A673EC431BF04A66008C6676 /* ocean2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean2.png; sourceTree = "<group>"; };
+		A673EC4A1BF04E0A008C6676 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
+		A673EC4C1BF056BD008C6676 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A673EC4E1BF05976008C6676 /* Kiss The Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kiss The Rain.mp3"; path = "../../../../Downloads/Kiss The Rain.mp3"; sourceTree = "<group>"; };
 		A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUIImageView.h; sourceTree = "<group>"; };
 		A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUIImageView.m; sourceTree = "<group>"; };
 		A68C7AA31BEA124A00E1C399 /* campfire01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire01.png; sourceTree = "<group>"; };
@@ -117,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A673EC4D1BF056BD008C6676 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +149,17 @@
 				A661B2AC1BEC6AF100D38C2A /* jungle.jpg */,
 			);
 			name = BirdFly;
+			sourceTree = "<group>";
+		};
+		A673EC391BF046C0008C6676 /* shipAndSee */ = {
+			isa = PBXGroup;
+			children = (
+				A673EC4E1BF05976008C6676 /* Kiss The Rain.mp3 */,
+				A673EC4A1BF04E0A008C6676 /* ship1.png */,
+				A673EC421BF04A66008C6676 /* ocean1.png */,
+				A673EC431BF04A66008C6676 /* ocean2.png */,
+			);
+			name = shipAndSee;
 			sourceTree = "<group>";
 		};
 		A68C7AA21BEA121C00E1C399 /* BonFire */ = {
@@ -175,6 +200,7 @@
 		A6B264E11BD49FBA00FC4D08 = {
 			isa = PBXGroup;
 			children = (
+				A673EC4C1BF056BD008C6676 /* AVFoundation.framework */,
 				A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */,
 				A6B264EB1BD49FBB00FC4D08 /* Products */,
 			);
@@ -191,6 +217,7 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A673EC391BF046C0008C6676 /* shipAndSee */,
 				A661B2A31BEC6AAF00D38C2A /* BirdFly */,
 				A6F1FA491BEB3A9000ECE69A /* UIView */,
 				A68C7AA21BEA121C00E1C399 /* BonFire */,
@@ -255,6 +282,8 @@
 				A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */,
 				A661B2A01BEC5B2900D38C2A /* flyUpAndDown.h */,
 				A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */,
+				A673EC361BF04432008C6676 /* SeeAndShip.h */,
+				A673EC371BF04432008C6676 /* SeeAndShip.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -317,9 +346,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A661B2AF1BEC6AF100D38C2A /* bird2.png in Resources */,
+				A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */,
 				A68C7ABA1BEA124A00E1C399 /* campfire08.png in Resources */,
 				A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */,
 				A6B264FE1BD49FBB00FC4D08 /* LaunchScreen.xib in Resources */,
+				A673EC4F1BF05976008C6676 /* Kiss The Rain.mp3 in Resources */,
 				A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */,
 				A6CA88E41BD89763009B36D6 /* DemoSelector.xib in Resources */,
 				A68C7ABF1BEA124A00E1C399 /* campfire13.png in Resources */,
@@ -328,6 +359,7 @@
 				A661B2B31BEC6AF100D38C2A /* jungle.jpg in Resources */,
 				A661B2B11BEC6AF100D38C2A /* bird4.png in Resources */,
 				A68C7AC11BEA124A00E1C399 /* campfire15.png in Resources */,
+				A673EC441BF04A66008C6676 /* ocean1.png in Resources */,
 				A68C7AB71BEA124A00E1C399 /* campfire05.png in Resources */,
 				A6B264FB1BD49FBB00FC4D08 /* Images.xcassets in Resources */,
 				A68C7AB61BEA124A00E1C399 /* campfire04.png in Resources */,
@@ -337,6 +369,7 @@
 				A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */,
 				A661B2AD1BEC6AF100D38C2A /* bird0.png in Resources */,
 				A68C7AB51BEA124A00E1C399 /* campfire03.png in Resources */,
+				A673EC451BF04A66008C6676 /* ocean2.png in Resources */,
 				A661B2B21BEC6AF100D38C2A /* bird5.png in Resources */,
 				A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */,
 				A68C7AB81BEA124A00E1C399 /* campfire06.png in Resources */,
@@ -364,6 +397,7 @@
 				A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */,
 				A661B2A21BEC5B2900D38C2A /* flyUpAndDown.m in Sources */,
 				A6A3CAB61BE86FCA007C5BD6 /* SwiftToObjC.m in Sources */,
+				A673EC381BF04432008C6676 /* SeeAndShip.m in Sources */,
 				A6CA88DA1BD87E6C009B36D6 /* DemoFunction.m in Sources */,
 				A6CA88E31BD89763009B36D6 /* DemoSelector.m in Sources */,
 				A6B264F01BD49FBB00FC4D08 /* main.m in Sources */,

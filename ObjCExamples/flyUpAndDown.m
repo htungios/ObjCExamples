@@ -17,13 +17,18 @@
 
 @implementation flyUpAndDown
 
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self drawJungle];
+    [self drawBird];
+    [self flyUpAndDown];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blackColor];
     self.edgesForExtendedLayout = UIRectEdgeNone; // tra ve kich thuoc man hinh ko tinh thanh status va thanh navigationBar
-    [self drawJungle];
-    [self drawBird];
-    [self flyUpAndDown];
+   
 }
 
 - (void) drawJungle {
