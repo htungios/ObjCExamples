@@ -38,9 +38,14 @@
                                 @{TITLE: @"Thuyền và Biển", CLASS: @"SeeAndShip"},
                                 @{TITLE: @"Stars", CLASS: @"Stars"}
                             ]};
+    NSDictionary* hexcolor = @{SECTION: @"DemoColor", MENU: @[
+                                           @{TITLE: @"DemoColor", CLASS: @"DemoColor"}
+                                           ]};
 
     
-    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC, basicUiview];
+
+    
+    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC, basicUiview, hexcolor];
     mainScreen.title = @"Objective -C by Examples";
     mainScreen.about = @"Hoang Ngoc Tung - DH Mo Dia Chat";
     //--------- End of customization -----------

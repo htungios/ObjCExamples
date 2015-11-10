@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6171A601BE8A9530044F5A9 /* ChessView.m */; };
+		A659F0761BF1FD24008FA75B /* DemoColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A659F0751BF1FD24008FA75B /* DemoColor.m */; };
+		A659F07C1BF1FF7F008FA75B /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A659F07B1BF1FF7F008FA75B /* UIColor+HexColor.m */; };
 		A661B2A21BEC5B2900D38C2A /* flyUpAndDown.m in Sources */ = {isa = PBXBuildFile; fileRef = A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */; };
 		A661B2AD1BEC6AF100D38C2A /* bird0.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2A61BEC6AF100D38C2A /* bird0.png */; };
 		A661B2AE1BEC6AF100D38C2A /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = A661B2A71BEC6AF100D38C2A /* bird1.png */; };
@@ -65,6 +67,10 @@
 /* Begin PBXFileReference section */
 		A6171A5F1BE8A9530044F5A9 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
 		A6171A601BE8A9530044F5A9 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		A659F0741BF1FD24008FA75B /* DemoColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoColor.h; sourceTree = "<group>"; };
+		A659F0751BF1FD24008FA75B /* DemoColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoColor.m; sourceTree = "<group>"; };
+		A659F07A1BF1FF7F008FA75B /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		A659F07B1BF1FF7F008FA75B /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		A661B2A01BEC5B2900D38C2A /* flyUpAndDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyUpAndDown.h; sourceTree = "<group>"; };
 		A661B2A11BEC5B2900D38C2A /* flyUpAndDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flyUpAndDown.m; sourceTree = "<group>"; };
 		A661B2A61BEC6AF100D38C2A /* bird0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird0.png; sourceTree = "<group>"; };
@@ -148,6 +154,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65335C11BF1A22F00ECFCE3 /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				A659F0741BF1FD24008FA75B /* DemoColor.h */,
+				A659F0751BF1FD24008FA75B /* DemoColor.m */,
+				A659F07A1BF1FF7F008FA75B /* UIColor+HexColor.h */,
+				A659F07B1BF1FF7F008FA75B /* UIColor+HexColor.m */,
+			);
+			name = HexColor;
+			sourceTree = "<group>";
+		};
 		A661B2A31BEC6AAF00D38C2A /* BirdFly */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +245,7 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A65335C11BF1A22F00ECFCE3 /* HexColor */,
 				A6DA99791BF08B7F0006B5A5 /* Stars */,
 				A673EC391BF046C0008C6676 /* shipAndSee */,
 				A661B2A31BEC6AAF00D38C2A /* BirdFly */,
@@ -416,7 +434,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B2651D1BD4A17D00FC4D08 /* BootLogic.m in Sources */,
+				A659F0761BF1FD24008FA75B /* DemoColor.m in Sources */,
 				A6B2651F1BD4A17D00FC4D08 /* MainScreen.m in Sources */,
+				A659F07C1BF1FF7F008FA75B /* UIColor+HexColor.m in Sources */,
 				A6B2651E1BD4A17D00FC4D08 /* ConsoleScreen.m in Sources */,
 				A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */,
 				A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */,
