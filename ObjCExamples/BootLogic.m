@@ -39,7 +39,8 @@
                                 @{TITLE: @"Stars", CLASS: @"Stars"}
                             ]};
     NSDictionary* hexcolor = @{SECTION: @"DemoColor", MENU: @[
-                                           @{TITLE: @"DemoColor", CLASS: @"DemoColor"}
+                                           @{TITLE: @"DemoColor", CLASS: @"DemoColor"},
+                                           @{TITLE: @"DemoColor2", CLASS: @"DemoColor2"}
                                            ]};
 
     

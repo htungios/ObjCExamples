@@ -61,6 +61,8 @@
 		A6DA99801BF08BB20006B5A5 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997C1BF08BB20006B5A5 /* red.png */; };
 		A6DA99811BF08BB20006B5A5 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = A6DA997D1BF08BB20006B5A5 /* violet.png */; };
 		A6DA99831BF0A2F10006B5A5 /* Kiss The Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6DA99821BF0A2F10006B5A5 /* Kiss The Rain.mp3 */; };
+		A6EC87441BF2ED18006CB78D /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC87431BF2ED18006CB78D /* Color.m */; };
+		A6EC874A1BF304EE006CB78D /* DemoColor2.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC87491BF304EE006CB78D /* DemoColor2.m */; };
 		A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +140,10 @@
 		A6DA997C1BF08BB20006B5A5 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../data/Stars/red.png; sourceTree = "<group>"; };
 		A6DA997D1BF08BB20006B5A5 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = ../../data/Stars/violet.png; sourceTree = "<group>"; };
 		A6DA99821BF0A2F10006B5A5 /* Kiss The Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kiss The Rain.mp3"; sourceTree = "<group>"; };
+		A6EC87421BF2ED18006CB78D /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		A6EC87431BF2ED18006CB78D /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		A6EC87481BF304EE006CB78D /* DemoColor2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoColor2.h; sourceTree = "<group>"; };
+		A6EC87491BF304EE006CB78D /* DemoColor2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoColor2.m; sourceTree = "<group>"; };
 		A6F1FA4A1BEB3C8800ECE69A /* nestedSquares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nestedSquares.h; sourceTree = "<group>"; };
 		A6F1FA4B1BEB3C8800ECE69A /* nestedSquares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nestedSquares.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +167,10 @@
 				A659F0751BF1FD24008FA75B /* DemoColor.m */,
 				A659F07A1BF1FF7F008FA75B /* UIColor+HexColor.h */,
 				A659F07B1BF1FF7F008FA75B /* UIColor+HexColor.m */,
+				A6EC87421BF2ED18006CB78D /* Color.h */,
+				A6EC87431BF2ED18006CB78D /* Color.m */,
+				A6EC87481BF304EE006CB78D /* DemoColor2.h */,
+				A6EC87491BF304EE006CB78D /* DemoColor2.m */,
 			);
 			name = HexColor;
 			sourceTree = "<group>";
@@ -434,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B2651D1BD4A17D00FC4D08 /* BootLogic.m in Sources */,
+				A6EC874A1BF304EE006CB78D /* DemoColor2.m in Sources */,
 				A659F0761BF1FD24008FA75B /* DemoColor.m in Sources */,
 				A6B2651F1BD4A17D00FC4D08 /* MainScreen.m in Sources */,
 				A659F07C1BF1FF7F008FA75B /* UIColor+HexColor.m in Sources */,
@@ -450,6 +461,7 @@
 				A673EC381BF04432008C6676 /* SeeAndShip.m in Sources */,
 				A6CA88DA1BD87E6C009B36D6 /* DemoFunction.m in Sources */,
 				A6CA88E31BD89763009B36D6 /* DemoSelector.m in Sources */,
+				A6EC87441BF2ED18006CB78D /* Color.m in Sources */,
 				A6B264F01BD49FBB00FC4D08 /* main.m in Sources */,
 				A66379C81BD8D37C009E1BDC /* util.c in Sources */,
 			);
