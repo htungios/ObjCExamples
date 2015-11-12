@@ -36,7 +36,8 @@
                                 @{TITLE: @"NestedSquares", CLASS: @"nestedSquares"},
                                 @{TITLE: @"FlyUpAndDown", CLASS: @"flyUpAndDown"},
                                 @{TITLE: @"Thuyền và Biển", CLASS: @"SeeAndShip"},
-                                @{TITLE: @"Stars", CLASS: @"Stars"}
+                                @{TITLE: @"Stars", CLASS: @"Stars"},
+                                @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"}
                             ]};
     NSDictionary* hexcolor = @{SECTION: @"DemoColor", MENU: @[
                                            @{TITLE: @"DemoColor", CLASS: @"DemoColor"},
