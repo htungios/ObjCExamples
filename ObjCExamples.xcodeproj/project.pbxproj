@@ -28,6 +28,11 @@
 		A673EC451BF04A66008C6676 /* ocean2.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC431BF04A66008C6676 /* ocean2.png */; };
 		A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC4A1BF04E0A008C6676 /* ship1.png */; };
 		A673EC4D1BF056BD008C6676 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A673EC4C1BF056BD008C6676 /* AVFoundation.framework */; };
+		A67C78B11BF48D0100CA18F2 /* Galaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A67C78B01BF48D0100CA18F2 /* Galaxy.m */; };
+		A67C78B71BF48D3600CA18F2 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = A67C78B31BF48D3600CA18F2 /* galaxy.png */; };
+		A67C78B91BF48D3600CA18F2 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = A67C78B51BF48D3600CA18F2 /* Sun.png */; };
+		A67C78BC1BF4975D00CA18F2 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = A67C78BA1BF4975D00CA18F2 /* earth.png */; };
+		A67C78BD1BF4975D00CA18F2 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = A67C78BB1BF4975D00CA18F2 /* moon.png */; };
 		A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */; };
 		A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA31BEA124A00E1C399 /* campfire01.png */; };
 		A68C7AB41BEA124A00E1C399 /* campfire02.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AA41BEA124A00E1C399 /* campfire02.png */; };
@@ -99,6 +104,12 @@
 		A673EC431BF04A66008C6676 /* ocean2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean2.png; sourceTree = "<group>"; };
 		A673EC4A1BF04E0A008C6676 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
 		A673EC4C1BF056BD008C6676 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A67C78AF1BF48D0100CA18F2 /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
+		A67C78B01BF48D0100CA18F2 /* Galaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Galaxy.m; sourceTree = "<group>"; };
+		A67C78B31BF48D3600CA18F2 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		A67C78B51BF48D3600CA18F2 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		A67C78BA1BF4975D00CA18F2 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		A67C78BB1BF4975D00CA18F2 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
 		A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUIImageView.h; sourceTree = "<group>"; };
 		A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUIImageView.m; sourceTree = "<group>"; };
 		A68C7AA31BEA124A00E1C399 /* campfire01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire01.png; sourceTree = "<group>"; };
@@ -332,6 +343,10 @@
 		A6F1FA491BEB3A9000ECE69A /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				A67C78BA1BF4975D00CA18F2 /* earth.png */,
+				A67C78BB1BF4975D00CA18F2 /* moon.png */,
+				A67C78B31BF48D3600CA18F2 /* galaxy.png */,
+				A67C78B51BF48D3600CA18F2 /* Sun.png */,
 				A6550B401BF34E6200CBA761 /* ball.png */,
 				A68C7A9F1BEA05BF00E1C399 /* DemoUIImageView.h */,
 				A68C7AA01BEA05BF00E1C399 /* DemoUIImageView.m */,
@@ -345,6 +360,8 @@
 				A6DA99771BF089300006B5A5 /* Stars.m */,
 				A6550B3D1BF3435E00CBA761 /* RollingBall.h */,
 				A6550B3E1BF3435E00CBA761 /* RollingBall.m */,
+				A67C78AF1BF48D0100CA18F2 /* Galaxy.h */,
+				A67C78B01BF48D0100CA18F2 /* Galaxy.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -406,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67C78B91BF48D3600CA18F2 /* Sun.png in Resources */,
 				A661B2AF1BEC6AF100D38C2A /* bird2.png in Resources */,
 				A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */,
 				A6550B411BF34E6200CBA761 /* ball.png in Resources */,
@@ -437,11 +455,14 @@
 				A673EC451BF04A66008C6676 /* ocean2.png in Resources */,
 				A661B2B21BEC6AF100D38C2A /* bird5.png in Resources */,
 				A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */,
+				A67C78BC1BF4975D00CA18F2 /* earth.png in Resources */,
 				A68C7AB81BEA124A00E1C399 /* campfire06.png in Resources */,
 				A68C7ABC1BEA124A00E1C399 /* campfire10.png in Resources */,
 				A6DA99811BF08BB20006B5A5 /* violet.png in Resources */,
+				A67C78BD1BF4975D00CA18F2 /* moon.png in Resources */,
 				A6A3CAB91BE87024007C5BD6 /* SwiftToObjC.xib in Resources */,
 				A68C7ABB1BEA124A00E1C399 /* campfire09.png in Resources */,
+				A67C78B71BF48D3600CA18F2 /* galaxy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +477,7 @@
 				A6EC874A1BF304EE006CB78D /* DemoColor2.m in Sources */,
 				A659F0761BF1FD24008FA75B /* DemoColor.m in Sources */,
 				A6B2651F1BD4A17D00FC4D08 /* MainScreen.m in Sources */,
+				A67C78B11BF48D0100CA18F2 /* Galaxy.m in Sources */,
 				A659F07C1BF1FF7F008FA75B /* UIColor+HexColor.m in Sources */,
 				A6B2651E1BD4A17D00FC4D08 /* ConsoleScreen.m in Sources */,
 				A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */,
