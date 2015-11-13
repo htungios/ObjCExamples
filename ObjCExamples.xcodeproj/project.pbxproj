@@ -50,6 +50,7 @@
 		A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AB01BEA124A00E1C399 /* campfire14.png */; };
 		A68C7AC11BEA124A00E1C399 /* campfire15.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AB11BEA124A00E1C399 /* campfire15.png */; };
 		A68C7AC21BEA124A00E1C399 /* campfire16.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C7AB21BEA124A00E1C399 /* campfire16.png */; };
+		A6925E6D1BF58AC40078D9E9 /* dropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A6925E6C1BF58AC40078D9E9 /* dropBall.m */; };
 		A6A3CAB61BE86FCA007C5BD6 /* SwiftToObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A3CAB41BE86FCA007C5BD6 /* SwiftToObjC.m */; };
 		A6A3CAB91BE87024007C5BD6 /* SwiftToObjC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3CAB81BE87024007C5BD6 /* SwiftToObjC.xib */; };
 		A6B264F01BD49FBB00FC4D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B264EF1BD49FBB00FC4D08 /* main.m */; };
@@ -128,6 +129,8 @@
 		A68C7AB01BEA124A00E1C399 /* campfire14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire14.png; sourceTree = "<group>"; };
 		A68C7AB11BEA124A00E1C399 /* campfire15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire15.png; sourceTree = "<group>"; };
 		A68C7AB21BEA124A00E1C399 /* campfire16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire16.png; sourceTree = "<group>"; };
+		A6925E6B1BF58AC40078D9E9 /* dropBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dropBall.h; sourceTree = "<group>"; };
+		A6925E6C1BF58AC40078D9E9 /* dropBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dropBall.m; sourceTree = "<group>"; };
 		A6A3CAB31BE86FCA007C5BD6 /* SwiftToObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftToObjC.h; sourceTree = "<group>"; };
 		A6A3CAB41BE86FCA007C5BD6 /* SwiftToObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftToObjC.m; sourceTree = "<group>"; };
 		A6A3CAB81BE87024007C5BD6 /* SwiftToObjC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftToObjC.xib; sourceTree = "<group>"; };
@@ -362,6 +365,8 @@
 				A6550B3E1BF3435E00CBA761 /* RollingBall.m */,
 				A67C78AF1BF48D0100CA18F2 /* Galaxy.h */,
 				A67C78B01BF48D0100CA18F2 /* Galaxy.m */,
+				A6925E6B1BF58AC40078D9E9 /* dropBall.h */,
+				A6925E6C1BF58AC40078D9E9 /* dropBall.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				A66379CB1BD8D83C009E1BDC /* UntilObject.m in Sources */,
 				A6550B3F1BF3435E00CBA761 /* RollingBall.m in Sources */,
 				A6B2651C1BD4A17D00FC4D08 /* AppDelegate.m in Sources */,
+				A6925E6D1BF58AC40078D9E9 /* dropBall.m in Sources */,
 				A66379C51BD8D16F009E1BDC /* CvsObjCFunction.m in Sources */,
 				A661B2A21BEC5B2900D38C2A /* flyUpAndDown.m in Sources */,
 				A6DA99781BF089300006B5A5 /* Stars.m in Sources */,
