@@ -27,7 +27,7 @@
     
     NSLog(@"%f", self.view.bounds.size.height);
     [self addBall];
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.03
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.01
                                              target:self
                                            selector:@selector(dropBall)
                                            userInfo:nil
@@ -42,7 +42,7 @@
     ball = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ball"]];
     ballRadius = 64;
     velocity = 0.0;
-    acceleration = 2.94;
+    acceleration = 0.98;
     x = mainViewSize.width * 0.5;
     y = ballRadius; // do toa do 0-0 o vi tri tren cung goc trai
     maxHeight = mainViewSize.height -  ballRadius - statusNavigationBarHeight ;
@@ -55,7 +55,7 @@
     velocity += acceleration;
     y += velocity;
     if (y > maxHeight) {
-        velocity = -velocity * 0.9;
+        velocity = -velocity *0.9 ;
         y = maxHeight ;
         NSLog(@"%f", maxHeight);
     }

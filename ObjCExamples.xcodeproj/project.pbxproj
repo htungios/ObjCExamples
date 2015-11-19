@@ -53,6 +53,8 @@
 		A6925E6D1BF58AC40078D9E9 /* dropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A6925E6C1BF58AC40078D9E9 /* dropBall.m */; };
 		A6A3CAB61BE86FCA007C5BD6 /* SwiftToObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A3CAB41BE86FCA007C5BD6 /* SwiftToObjC.m */; };
 		A6A3CAB91BE87024007C5BD6 /* SwiftToObjC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3CAB81BE87024007C5BD6 /* SwiftToObjC.xib */; };
+		A6B1B4771BFD7D8000B82CE3 /* DemoUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B1B4761BFD7D8000B82CE3 /* DemoUIScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		A6B1B4791BFD80DA00B82CE3 /* millennium_puzzle.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B1B4781BFD80DA00B82CE3 /* millennium_puzzle.png */; settings = {ASSET_TAGS = (); }; };
 		A6B264F01BD49FBB00FC4D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B264EF1BD49FBB00FC4D08 /* main.m */; };
 		A6B264FB1BD49FBB00FC4D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B264FA1BD49FBB00FC4D08 /* Images.xcassets */; };
 		A6B264FE1BD49FBB00FC4D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B264FC1BD49FBB00FC4D08 /* LaunchScreen.xib */; };
@@ -134,6 +136,9 @@
 		A6A3CAB31BE86FCA007C5BD6 /* SwiftToObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftToObjC.h; sourceTree = "<group>"; };
 		A6A3CAB41BE86FCA007C5BD6 /* SwiftToObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftToObjC.m; sourceTree = "<group>"; };
 		A6A3CAB81BE87024007C5BD6 /* SwiftToObjC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftToObjC.xib; sourceTree = "<group>"; };
+		A6B1B4751BFD7D8000B82CE3 /* DemoUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUIScrollView.h; sourceTree = "<group>"; };
+		A6B1B4761BFD7D8000B82CE3 /* DemoUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUIScrollView.m; sourceTree = "<group>"; };
+		A6B1B4781BFD80DA00B82CE3 /* millennium_puzzle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = millennium_puzzle.png; sourceTree = "<group>"; };
 		A6B264EA1BD49FBB00FC4D08 /* ObjCExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B264EE1BD49FBB00FC4D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B264EF1BD49FBB00FC4D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -254,6 +259,16 @@
 			name = SwiftToObjC;
 			sourceTree = "<group>";
 		};
+		A6B1B46E1BFD795400B82CE3 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A6B1B4781BFD80DA00B82CE3 /* millennium_puzzle.png */,
+				A6B1B4751BFD7D8000B82CE3 /* DemoUIScrollView.h */,
+				A6B1B4761BFD7D8000B82CE3 /* DemoUIScrollView.m */,
+			);
+			name = UIScrollView;
+			sourceTree = "<group>";
+		};
 		A6B264E11BD49FBA00FC4D08 = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +289,7 @@
 		A6B264EC1BD49FBB00FC4D08 /* ObjCExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A6B1B46E1BFD795400B82CE3 /* UIScrollView */,
 				A65335C11BF1A22F00ECFCE3 /* HexColor */,
 				A6DA99791BF08B7F0006B5A5 /* Stars */,
 				A673EC391BF046C0008C6676 /* shipAndSee */,
@@ -397,11 +413,12 @@
 		A6B264E21BD49FBA00FC4D08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HoangNgocTung;
 				TargetAttributes = {
 					A6B264E91BD49FBB00FC4D08 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2RP57DKKG9;
 					};
 				};
 			};
@@ -452,6 +469,7 @@
 				A68C7AB61BEA124A00E1C399 /* campfire04.png in Resources */,
 				A68C7AB31BEA124A00E1C399 /* campfire01.png in Resources */,
 				A6DA99801BF08BB20006B5A5 /* red.png in Resources */,
+				A6B1B4791BFD80DA00B82CE3 /* millennium_puzzle.png in Resources */,
 				A68C7ABD1BEA124A00E1C399 /* campfire11.png in Resources */,
 				A68C7AB91BEA124A00E1C399 /* campfire07.png in Resources */,
 				A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */,
@@ -485,6 +503,7 @@
 				A67C78B11BF48D0100CA18F2 /* Galaxy.m in Sources */,
 				A659F07C1BF1FF7F008FA75B /* UIColor+HexColor.m in Sources */,
 				A6B2651E1BD4A17D00FC4D08 /* ConsoleScreen.m in Sources */,
+				A6B1B4771BFD7D8000B82CE3 /* DemoUIScrollView.m in Sources */,
 				A6F1FA4C1BEB3C8800ECE69A /* nestedSquares.m in Sources */,
 				A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */,
 				A68C7AA11BEA05BF00E1C399 /* DemoUIImageView.m in Sources */,
@@ -540,6 +559,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -603,9 +623,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ObjCExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HNT.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -613,9 +638,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ObjCExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HNT.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -16,14 +16,15 @@
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
-                                    @{TITLE: @"Function", CLASS: @"DemoFunction"},
-                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"},
+//                                    @{TITLE: @"Function", CLASS: @"DemoFunction"},
+//                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"},
                                     @{TITLE: @"C function And ObjC function", CLASS: @"CvsObjCFunction"},
                                     
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
-                                    @{TITLE: @"Array", CLASS: @"InterB"},
-                                    @{TITLE: @"Dictionary", CLASS: @"InterB"}                                  ]};
+//                                    @{TITLE: @"Array", CLASS: @"InterB"},
+//                                    @{TITLE: @"Dictionary", CLASS: @"InterB"}
+                                    ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
                              ]};
@@ -32,24 +33,19 @@
                                        @{TITLE: @"ChessView", CLASS: @"ChessView"}
                             ]};
     NSDictionary* basicUiview = @{SECTION: @"UIView", MENU: @[
-                                @{TITLE: @"CampFire", CLASS: @"DemoUIImageView"},
-                                @{TITLE: @"NestedSquares", CLASS: @"nestedSquares"},
-                                @{TITLE: @"FlyUpAndDown", CLASS: @"flyUpAndDown"},
-                                @{TITLE: @"Thuyền và Biển", CLASS: @"SeeAndShip"},
-                                @{TITLE: @"Stars", CLASS: @"Stars"},
-                                @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"},
-                                @{TITLE: @"Galaxy", CLASS: @"Galaxy"},
-                                @{TITLE: @"Drop Ball", CLASS: @"dropBall"}
                             ]};
     NSDictionary* hexcolor = @{SECTION: @"DemoColor", MENU: @[
                                            @{TITLE: @"DemoColor", CLASS: @"DemoColor"},
                                            @{TITLE: @"DemoColor2", CLASS: @"DemoColor2"}
                                            ]};
 
-    
+    NSDictionary* UIScrollView = @{SECTION: @"UIScrollView", MENU: @[
+                                       @{TITLE: @"ScrollViewByCode", CLASS: @"DemoUIScrollView"}
+                                       ]};
+
 
     
-    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC, basicUiview, hexcolor];
+    mainScreen.menu = @[basic, intermediate, advanced, fromSwiftToObjC, basicUiview, hexcolor, UIScrollView];
     mainScreen.title = @"Objective -C by Examples";
     mainScreen.about = @"Hoang Ngoc Tung - DH Mo Dia Chat";
     //--------- End of customization -----------
