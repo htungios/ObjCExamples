@@ -40,7 +40,9 @@
                                            ]};
 
     NSDictionary* UIScrollView = @{SECTION: @"UIScrollView", MENU: @[
-                                       @{TITLE: @"ScrollViewByCode", CLASS: @"DemoUIScrollView"}
+                                       @{TITLE: @"ScrollViewByCode", CLASS: @"DemoUIScrollView"},
+                                       @{TITLE: @"Scale And Slider", CLASS: @"ScaleAndSlider"},
+                                       @{TITLE: @"Content Size Basic", CLASS: @"ContentSizeBasic"}
                                        ]};
 
 

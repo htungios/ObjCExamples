@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A6171A611BE8A9530044F5A9 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6171A601BE8A9530044F5A9 /* ChessView.m */; };
+		A6214D261BFED04A005711E3 /* ContentSizeBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = A6214D251BFED04A005711E3 /* ContentSizeBasic.m */; settings = {ASSET_TAGS = (); }; };
+		A6214D281BFED073005711E3 /* Yugioh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6214D271BFED073005711E3 /* Yugioh.jpg */; settings = {ASSET_TAGS = (); }; };
 		A6550B3F1BF3435E00CBA761 /* RollingBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A6550B3E1BF3435E00CBA761 /* RollingBall.m */; };
 		A6550B411BF34E6200CBA761 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A6550B401BF34E6200CBA761 /* ball.png */; };
 		A659F0761BF1FD24008FA75B /* DemoColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A659F0751BF1FD24008FA75B /* DemoColor.m */; };
@@ -28,6 +30,7 @@
 		A673EC451BF04A66008C6676 /* ocean2.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC431BF04A66008C6676 /* ocean2.png */; };
 		A673EC4B1BF04E0A008C6676 /* ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = A673EC4A1BF04E0A008C6676 /* ship1.png */; };
 		A673EC4D1BF056BD008C6676 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A673EC4C1BF056BD008C6676 /* AVFoundation.framework */; };
+		A678F6371BFDC0E50097038C /* ScaleAndSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A678F6361BFDC0E50097038C /* ScaleAndSlider.m */; settings = {ASSET_TAGS = (); }; };
 		A67C78B11BF48D0100CA18F2 /* Galaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A67C78B01BF48D0100CA18F2 /* Galaxy.m */; };
 		A67C78B71BF48D3600CA18F2 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = A67C78B31BF48D3600CA18F2 /* galaxy.png */; };
 		A67C78B91BF48D3600CA18F2 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = A67C78B51BF48D3600CA18F2 /* Sun.png */; };
@@ -79,6 +82,9 @@
 /* Begin PBXFileReference section */
 		A6171A5F1BE8A9530044F5A9 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
 		A6171A601BE8A9530044F5A9 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		A6214D241BFED04A005711E3 /* ContentSizeBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentSizeBasic.h; sourceTree = "<group>"; };
+		A6214D251BFED04A005711E3 /* ContentSizeBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentSizeBasic.m; sourceTree = "<group>"; };
+		A6214D271BFED073005711E3 /* Yugioh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yugioh.jpg; sourceTree = "<group>"; };
 		A6550B3D1BF3435E00CBA761 /* RollingBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingBall.h; sourceTree = "<group>"; };
 		A6550B3E1BF3435E00CBA761 /* RollingBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingBall.m; sourceTree = "<group>"; };
 		A6550B401BF34E6200CBA761 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 		A673EC431BF04A66008C6676 /* ocean2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean2.png; sourceTree = "<group>"; };
 		A673EC4A1BF04E0A008C6676 /* ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship1.png; sourceTree = "<group>"; };
 		A673EC4C1BF056BD008C6676 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A678F6351BFDC0E50097038C /* ScaleAndSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleAndSlider.h; sourceTree = "<group>"; };
+		A678F6361BFDC0E50097038C /* ScaleAndSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleAndSlider.m; sourceTree = "<group>"; };
 		A67C78AF1BF48D0100CA18F2 /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
 		A67C78B01BF48D0100CA18F2 /* Galaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Galaxy.m; sourceTree = "<group>"; };
 		A67C78B31BF48D3600CA18F2 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
@@ -262,9 +270,14 @@
 		A6B1B46E1BFD795400B82CE3 /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				A6214D271BFED073005711E3 /* Yugioh.jpg */,
 				A6B1B4781BFD80DA00B82CE3 /* millennium_puzzle.png */,
 				A6B1B4751BFD7D8000B82CE3 /* DemoUIScrollView.h */,
 				A6B1B4761BFD7D8000B82CE3 /* DemoUIScrollView.m */,
+				A678F6351BFDC0E50097038C /* ScaleAndSlider.h */,
+				A678F6361BFDC0E50097038C /* ScaleAndSlider.m */,
+				A6214D241BFED04A005711E3 /* ContentSizeBasic.h */,
+				A6214D251BFED04A005711E3 /* ContentSizeBasic.m */,
 			);
 			name = UIScrollView;
 			sourceTree = "<group>";
@@ -475,6 +488,7 @@
 				A68C7AC01BEA124A00E1C399 /* campfire14.png in Resources */,
 				A661B2AD1BEC6AF100D38C2A /* bird0.png in Resources */,
 				A68C7AB51BEA124A00E1C399 /* campfire03.png in Resources */,
+				A6214D281BFED073005711E3 /* Yugioh.jpg in Resources */,
 				A673EC451BF04A66008C6676 /* ocean2.png in Resources */,
 				A661B2B21BEC6AF100D38C2A /* bird5.png in Resources */,
 				A68C7ABE1BEA124A00E1C399 /* campfire12.png in Resources */,
@@ -497,8 +511,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B2651D1BD4A17D00FC4D08 /* BootLogic.m in Sources */,
+				A678F6371BFDC0E50097038C /* ScaleAndSlider.m in Sources */,
 				A6EC874A1BF304EE006CB78D /* DemoColor2.m in Sources */,
 				A659F0761BF1FD24008FA75B /* DemoColor.m in Sources */,
+				A6214D261BFED04A005711E3 /* ContentSizeBasic.m in Sources */,
 				A6B2651F1BD4A17D00FC4D08 /* MainScreen.m in Sources */,
 				A67C78B11BF48D0100CA18F2 /* Galaxy.m in Sources */,
 				A659F07C1BF1FF7F008FA75B /* UIColor+HexColor.m in Sources */,
